@@ -14,4 +14,7 @@ spring:
     url: jdbc:mysql://localhost:3306/cardb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: cardb
     password: CarDbPass1
+  data:
+    rest:
+      base-path: /api
 ...
