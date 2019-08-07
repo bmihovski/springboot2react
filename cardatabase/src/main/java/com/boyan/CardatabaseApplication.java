@@ -42,6 +42,7 @@ public class CardatabaseApplication {
 	@Bean
 	CommandLineRunner runner() {
 		return args -> {
+			
 			// Add Owner objects and save them to DB
 			Owner owner1 = new Owner("John", "Johnson");
 			Owner owner2 = new Owner("Mary", "Robinson");
