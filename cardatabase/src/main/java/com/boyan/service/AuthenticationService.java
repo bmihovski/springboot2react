@@ -19,7 +19,7 @@ public class AuthenticationService {
 	static final String SIGNINGKEY = "SecretKey";
 	static final String PREFIX = "Bearer";
 	
-	// Add token to Authorization header
+	// Add token to Authorization header 
 	static public void addTocken(HttpServletResponse res, String username) {
 		String JwtToken = Jwts.builder().setSubject(username)
 				.setExpiration(new Date(System.currentTimeMillis()
